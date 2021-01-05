@@ -19,5 +19,19 @@ canvas{
     border: 4px white solid;
     border-radius: 20px !important;
     box-shadow: 1px 1px 18px rgb(82, 82, 82);
-    margin-top: 5%;
+    margin-top: 100px;
+}
+
+.para_object_name{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+}
+
+.copy_right_footer{
+    bottom: 0;
+    position: fixed;
+    background-color: rgb(104, 104, 104);
+    color: white;
+    line-height: 3;
+    width: 100%;
 }

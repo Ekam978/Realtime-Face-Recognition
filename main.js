@@ -1,4 +1,5 @@
-function setup() {
+function setup() 
+{
     canvas = createCanvas(300,300);
     canvas.center();
     video = createCapture(VIDEO);
@@ -6,6 +7,7 @@ function setup() {
     video.hide();
 }
 
-function draw() {
+function draw() 
+{
     image(video,0,0,300,300);
 }
